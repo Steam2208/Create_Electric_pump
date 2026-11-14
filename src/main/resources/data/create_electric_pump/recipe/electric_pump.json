@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:mechanical_pump"
+    },
+    {
+      "item": "create:electron_tube"
+    },
+    {
+      "item": "create:precision_mechanism"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_electric_pump:electric_pump"
+  }
+}

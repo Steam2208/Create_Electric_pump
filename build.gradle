@@ -1,0 +1,48 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+
+version = '1.0.0'
+group = 'com.electricpump'
+
+base {
+    archivesName = 'create_electric_pump'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = '21.1.247'
+
+    runs {
+        client {
+            client()
+        }
+        server {
+            server()
+        }
+    }
+
+    mods {
+        create_electric_pump {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'Create Maven'
+        url = 'https://maven.createmod.net/'
+    }
+}
+
+dependencies {
+    implementation 'com.simibubi.create:create-1.21.1:6.0.10-281'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

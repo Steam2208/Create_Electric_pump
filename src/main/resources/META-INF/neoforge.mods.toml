@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="create_electric_pump"
+version="1.0.0"
+displayName="Create: Electric Pump"
+authors="JanisBeaky"
+description='''
+Adds an electric pump for Create that consumes FE instead of rotational stress.
+'''
+
+[[dependencies.create_electric_pump]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.create_electric_pump]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.create_electric_pump]]
+    modId="create"
+    type="required"
+    versionRange="[6.0.0,)"
+    ordering="NONE"
+    side="BOTH"

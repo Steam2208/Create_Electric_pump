@@ -1,0 +1,13 @@
+{
+  "block.create_electric_pump.electric_pump": "Электрическая помпа",
+  "tooltip.create_electric_pump.desc": "Потребляет FE для перекачки жидкостей по трубам Create.",
+  "tooltip.create_electric_pump.connector": "В горизонтальном положении разъём энергии сверху.",
+  "tooltip.create_electric_pump.wrench_rotate": "В вертикальном положении: клик ключом по торцу вращает помпу по кругу.",
+  "tooltip.create_electric_pump.wrench_flip": "Клик ключом по бокам меняет направление потока.",
+  "goggle.create_electric_pump.title": "Электрическая помпа",
+  "goggle.create_electric_pump.energy": " Энергия: ",
+  "goggle.create_electric_pump.usage": " Потребление: ",
+  "goggle.create_electric_pump.status": " Статус: ",
+  "goggle.create_electric_pump.active": "Работает (%s об/мин)",
+  "goggle.create_electric_pump.no_power": "Нет питания"
+}
