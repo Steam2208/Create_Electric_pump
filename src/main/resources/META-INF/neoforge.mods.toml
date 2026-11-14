@@ -6,6 +6,7 @@ license="MIT"
 modId="create_electric_pump"
 version="1.0.0"
 displayName="Create: Electric Pump"
+logoFile="logo.png"
 authors="JanisBeaky"
 description='''
 Adds an electric pump for Create that consumes FE instead of rotational stress.
