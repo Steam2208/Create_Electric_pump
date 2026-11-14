@@ -1,30 +1,30 @@
 # Create: Electric Pump
 
-Небольшой аддон для мода Create (Minecraft 1.21.1, NeoForge), добавляющий электрическую помпу. Позволяет качать жидкости по трубам Create за счёт FE-энергии, не требуя подключения к кинетической сети валов и шестерёнок.
+A lightweight addon for the Create mod (Minecraft 1.21.1, NeoForge) that adds an electric pump. It pumps fluids through Create pipe networks using FE energy, without requiring kinetic rotational shafts or stress units (SU).
 
-## Особенности
+## Features
 
-- **Питание:** Потребляет 64 FE/t при работе (буфер 10 000 FE).
-- **Производительность:** Обеспечивает давление, эквивалентное механической помпе на 128 об/мин.
-- **Подключение:** Энергия подаётся только через выступающий разъём на корпусе.
-- **Управление гаечным ключом (Create Wrench):**
-  - В горизонтальном положении разъём всегда находится сверху. Клик ключом разворачивает направление потока.
-  - В вертикальном положении клик ключом по торцу (входу или выходу) вращает помпу по кругу, позволяя направить разъём в нужную сторону. Клик по боковым граням меняет направление потока (вверх/вниз).
-- **Очки инженера:** Показывают текущий запас энергии, расход и статус работы.
+- **Power:** Consumes 64 FE/t while operating (10,000 FE internal buffer).
+- **Performance:** Generates fluid pressure equivalent to a mechanical pump running at 128 RPM.
+- **Connection:** Power is accepted strictly through the protruding connector on the casing.
+- **Wrench Controls (Create Wrench):**
+  - Horizontal orientation: The power connector always faces up. Right-clicking with a wrench flips the flow direction.
+  - Vertical orientation: Right-clicking the pipe ends (inlet or outlet) rotates the pump in a circle, allowing you to aim the power connector in any direction. Right-clicking the side faces flips the flow direction (up/down).
+- **Engineer's Goggles:** Displays stored energy, consumption rate, and operating status when looked at.
 
-## Крафт
+## Crafting Recipe
 
-Бесформенный крафт в верстаке:
-- Механическая помпа (`create:mechanical_pump`)
-- Электронная лампа (`create:electron_tube`)
-- Механизм точности (`create:precision_mechanism`)
+Shapeless crafting table recipe:
+- Mechanical Pump (`create:mechanical_pump`)
+- Electron Tube (`create:electron_tube`)
+- Precision Mechanism (`create:precision_mechanism`)
 
-## Требования
+## Requirements
 
 - Minecraft 1.21.1
 - NeoForge 21.1.247+
 - Create 1.21.1-6.0.10+
 
-## Лицензия
+## License
 
 [The Unlicense](LICENSE)
