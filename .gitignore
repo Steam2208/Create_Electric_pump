@@ -19,4 +19,5 @@ run/
 Thumbs.db
 .DS_Store
 
+*.tmp
 .vscode/

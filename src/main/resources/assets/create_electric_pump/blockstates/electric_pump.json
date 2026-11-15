@@ -1,58 +1,58 @@
 {
   "variants": {
-    "connector=north,facing=south,waterlogged=false": {
-      "model": "create_electric_pump:block/electric_pump"
-    },
-    "connector=north,facing=south,waterlogged=true": {
-      "model": "create_electric_pump:block/electric_pump"
-    },
-    "connector=east,facing=south,waterlogged=false": {
-      "model": "create_electric_pump:block/electric_pump"
-    },
-    "connector=east,facing=south,waterlogged=true": {
-      "model": "create_electric_pump:block/electric_pump"
-    },
-    "connector=south,facing=south,waterlogged=false": {
-      "model": "create_electric_pump:block/electric_pump"
-    },
-    "connector=south,facing=south,waterlogged=true": {
-      "model": "create_electric_pump:block/electric_pump"
-    },
-    "connector=west,facing=south,waterlogged=false": {
-      "model": "create_electric_pump:block/electric_pump"
-    },
-    "connector=west,facing=south,waterlogged=true": {
-      "model": "create_electric_pump:block/electric_pump"
-    },
     "connector=north,facing=north,waterlogged=false": {
-      "model": "create_electric_pump:block/electric_pump",
-      "y": 180
+      "model": "create_electric_pump:block/electric_pump"
     },
     "connector=north,facing=north,waterlogged=true": {
-      "model": "create_electric_pump:block/electric_pump",
-      "y": 180
+      "model": "create_electric_pump:block/electric_pump"
     },
     "connector=east,facing=north,waterlogged=false": {
-      "model": "create_electric_pump:block/electric_pump",
-      "y": 180
+      "model": "create_electric_pump:block/electric_pump"
     },
     "connector=east,facing=north,waterlogged=true": {
-      "model": "create_electric_pump:block/electric_pump",
-      "y": 180
+      "model": "create_electric_pump:block/electric_pump"
     },
     "connector=south,facing=north,waterlogged=false": {
-      "model": "create_electric_pump:block/electric_pump",
-      "y": 180
+      "model": "create_electric_pump:block/electric_pump"
     },
     "connector=south,facing=north,waterlogged=true": {
-      "model": "create_electric_pump:block/electric_pump",
-      "y": 180
+      "model": "create_electric_pump:block/electric_pump"
     },
     "connector=west,facing=north,waterlogged=false": {
+      "model": "create_electric_pump:block/electric_pump"
+    },
+    "connector=west,facing=north,waterlogged=true": {
+      "model": "create_electric_pump:block/electric_pump"
+    },
+    "connector=north,facing=south,waterlogged=false": {
       "model": "create_electric_pump:block/electric_pump",
       "y": 180
     },
-    "connector=west,facing=north,waterlogged=true": {
+    "connector=north,facing=south,waterlogged=true": {
+      "model": "create_electric_pump:block/electric_pump",
+      "y": 180
+    },
+    "connector=east,facing=south,waterlogged=false": {
+      "model": "create_electric_pump:block/electric_pump",
+      "y": 180
+    },
+    "connector=east,facing=south,waterlogged=true": {
+      "model": "create_electric_pump:block/electric_pump",
+      "y": 180
+    },
+    "connector=south,facing=south,waterlogged=false": {
+      "model": "create_electric_pump:block/electric_pump",
+      "y": 180
+    },
+    "connector=south,facing=south,waterlogged=true": {
+      "model": "create_electric_pump:block/electric_pump",
+      "y": 180
+    },
+    "connector=west,facing=south,waterlogged=false": {
+      "model": "create_electric_pump:block/electric_pump",
+      "y": 180
+    },
+    "connector=west,facing=south,waterlogged=true": {
       "model": "create_electric_pump:block/electric_pump",
       "y": 180
     },
